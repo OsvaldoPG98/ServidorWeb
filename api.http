@@ -1,0 +1,28 @@
+### GET ALL
+GET http://localhost:3000/
+
+### GET ID
+GET http://localhost:3000/2
+
+### DELETE
+DELETE http://localhost:3000/20
+
+### POST CREATE
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "first_name": "Cristian",
+    "last_name": "Mendez",
+    "email": "ejemplo@gmail.com"
+}
+
+### PUT UPDATE
+PUT http://localhost:3000/20
+Content-Type: application/json
+
+{
+  "first_name": "Gabriel",
+  "last_name": "Cruz",
+  "email": "rdaouze0@webmd.com"
+}
